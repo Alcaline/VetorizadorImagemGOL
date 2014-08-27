@@ -25,8 +25,9 @@ public class Main{
             char opcao;
             
             while(true){
-                System.out.print("Imagem: simples <s> | espaçada <c> | sair <s> ");
+                System.out.print("Imagem: simples <s> | espaçada <c> | sair <e> ");
                 opcao = ler.next().charAt(0);
+                
                 if(Character.toLowerCase(opcao) == 's')
                     matrizRegular();
                 if(Character.toLowerCase(opcao) == 'c')
